@@ -23,7 +23,7 @@ def save_case(grid, path):
 
 def main():
     random.seed(42)
-    outdir = "../../data/input/random"
+    outdir = "../data/input/random"
     os.makedirs(outdir, exist_ok=True)
     for idx in range(10):
         n = random.randint(2, 8)
